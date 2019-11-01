@@ -16,4 +16,6 @@ target_include_directories(lora_pkt_fwd
 target_link_libraries(lora_pkt_fwd
     PRIVATE loragw Threads::Threads)
 
+install(TARGETS lora_pkt_fwd
+        DESTINATION bin)
 
